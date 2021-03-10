@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comfortaa";
+}
+
+main{
+    min-height: 100vh;
+    background: linear-gradient(to right top, #0a8181, #00cec9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboard img{
+    width: 30px;
+    height: 30px;
+}
+
+.dashboard .user img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.dashboard{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background: linear-gradient(
+    to right bottom, 
+    rgba(244, 244, 244, 0.7), 
+    rgba(244, 244, 244, 0.3));
+    border-radius: 2rem 0 0 2rem;
+    padding: 2rem 0rem;
+}
+
+.user{
+    margin: 2px;
+    text-align: start;
+}
+
+.user img{
+    margin-bottom: 7px;
+}
+
+.user  h3{
+    text-transform: capitalize;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin: 2rem 0rem;
+    padding: 1rem 5rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.pro{
+    width: 150px;
+    background: linear-gradient(to right top, #0a8181, #00cec9);
+    border-radius: 5%;
+    padding: 9px;
+    font-size: 8px;
+    color: rgb(209, 233, 232);
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.pro h2{
+    width: 55px;
+    text-align: start;
+}
+
+
+.games{
+   display: flex;
+   flex-direction: column;
+   flex: 2;
+   justify-content: space-evenly;
+   margin: 0rem 5rem;
+}
+
+.status{
+    margin-top: 1rem;
+}
+
+.status h1{
+    color: rgb(26, 164, 199);
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+
+.status input{
+    height: 2rem;
+    background: linear-gradient(
+    to right bottom, 
+    rgba(244, 244, 244, 0.7), 
+    rgba(244, 244, 244, 0.3));
+    border: none;
+    width: 16em;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.card{
+    display: flex;
+    background: linear-gradient(
+    to right bottom, 
+    rgba(244, 244, 244, 0.9), 
+    rgba(244, 244, 244, 0.5));
+    border-radius: 1rem;
+    margin: 2rem 0rem;
+    padding: 2rem;
+    box-shadow: 2px 2px 20px rgba(122, 122, 122, .7);
+    justify-content: space-between;
+    font-size: 9px;
+}
+
+.card-info h2 p{
+    text-align: start;
+}
+
+
+ 
+
+.cards .card img{
+    height: 60px;  
+    width: 60px;
+}
+
+.glass{
+    background: rgb(209, 233, 232);
+    min-height: 80vh;
+    width: 60%;
+    background: linear-gradient(
+    to right bottom, 
+    rgba(244, 244, 244, 0.7), 
+    rgba(244, 244, 244, 0.3));
+    border-radius: 2rem;
+    z-index: 3;
+    backdrop-filter: blur(0.5 rem);
+    display: flex;
+}
+
+.circle1, .circle2{
+    background: rgb(209, 233, 232);
+    background: linear-gradient(
+        to right bottom, 
+        rgba(244, 244, 244, 0.9), 
+        rgba(244, 244, 244, 0.1));
+    border-radius: 50%;
+    width: 20rem;
+    height: 20rem;  
+    position: absolute;
+    z-index: 2; 
+}
+
+.circle1{
+    bottom: 5%;
+    left: 10%;
+}
+
+.circle2{
+    top: 5%;
+    right: 10%;
+}
+
